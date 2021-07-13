@@ -1,0 +1,91 @@
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fonts
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* variable css section */
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;  
+}
+p{
+    text-align: center;
+    font-family: font-family: 'Zilla Slab Highlight', cursive;
+    font-size:1.8rem;
+}
+h2{
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.8rem;
+}
+/* main css starts hear */
+nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+nav::before{
+    content: "";
+    position: absolute;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+ .logo{
+     margin: 10ox 20px;
+}
+.logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+.ul{
+    display: flex;  
+    margin-left: 64px;
+}
+.ul,li{
+    list-style: none;   
+    padding: 0px 36px;
+}
+.ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.5rem;
+color: white;
+}
+.ul li a:hover{
+    color: black;
+    background-color:white;
+}
+nav input[type=text] {
+    margin-left: 115px;
+    padding: 6px;
+    width: 415px;
+    border: 1px solid black;
+    font-size: 1rem;
+  } 
+  /* home section css here */
+  .home{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: ;
+    margin: ;
+  }
+  .home::before{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 90%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+        background: url("card-image-2.jfif") no-repeat center center/cover;
+  }
